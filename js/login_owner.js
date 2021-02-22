@@ -5,7 +5,7 @@ function validate() {
     var password = document.getElementById("password").value;
     if (username == "petowner" && password == "PetOwner123") {
         alert("Login successfully");
-        window.location = "vet.html"; // Redirecting to other page.
+        window.location = "owner/index.html"; // Redirecting to other page.
         return false;
     } else {
         attempt--; // Decrementing by one.
